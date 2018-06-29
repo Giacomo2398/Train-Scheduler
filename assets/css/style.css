@@ -65,6 +65,7 @@ form {
     position:relative;
     top:200px;
     width: 600px;
+    font-weight:bold;
 }
 
 #input {
@@ -97,6 +98,8 @@ form {
     margin-left:35px;
     margin-top:50px;
     padding-bottom:20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .panel-header {
@@ -131,6 +134,8 @@ form {
     background-color:black;
     max-width:1000px;
     padding-left:70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #backtime {
