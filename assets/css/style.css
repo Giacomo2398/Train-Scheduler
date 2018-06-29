@@ -1,0 +1,173 @@
+@font-face{ 
+    font-family: 'Train'; 
+    src: url('fonts/font.woff') format('woff');
+}
+
+#background {
+    width:100%;
+    height:989px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+
+.container {
+    position: absolute;
+    margin-left:100px;
+    margin-right:0;
+    padding-left:0;
+    z-index:0;
+}
+
+#header {
+    width: 600px;
+    margin-top:15px;
+    padding-bottom: 10px;
+    color:white;
+}
+
+h2 {
+    font-weight:bold;
+}
+
+h1 {
+    padding-left: 10px;
+    font-family: 'Train';
+    font-size:155px;
+    color:orangered;
+    width:600px;
+    line-height:120px;
+    z-index:3;
+}
+
+.textline {
+    margin-left:20px;
+    margin-bottom: 20px;
+    height:95px;
+    background-image:url("../Images/pattern.png");
+    width:550px;
+    z-index: 2;
+}
+
+#headbox {
+    padding-top:20px;
+    position: relative;
+    right:50px;
+    width:800px;
+    height:250px;
+    background-color: black;
+    padding-left:5px;
+    z-index: 1;
+}
+
+form {
+    position:relative;
+    top:200px;
+    width: 600px;
+}
+
+#input {
+    color:orangered;
+    width: 450px;
+}
+
+.btn {
+    line-height: 0.8;
+    width:155px;
+    height:50px;
+    font-size:55px;
+    color:orangered;
+    font-family: 'Train';
+    background-image:url("../Images/pattern3.png");
+    border: none;
+}
+
+#right {
+    position: relative;
+    left: 650px;
+    width:970px;
+    padding-right:0;
+}
+
+#table {
+    background-color:black;
+    width:200px;
+    height: 70px;
+    margin-left:35px;
+    margin-top:50px;
+    padding-bottom:20px;
+}
+
+.panel-header {
+    color:orangered;
+    font-family: 'Train';
+    background-image:url("../Images/pattern3.png");
+    text-align: center;
+    height: 32px;
+    margin-bottom: 5px;
+    font-size:30px;
+    padding-bottom: 10px;
+    margin-left:10px;
+}
+
+#panel {
+    background-color:black;
+    position: relative;
+    padding-top:10px;
+    left:35px;
+    background-color:black;
+    max-width:1000px;
+    padding-left:70px;
+}
+
+#panel2 {
+    background-color:black;
+    position: relative;
+    padding-top:10px;
+    padding-bottom:5px;
+    left:35px;
+    padding-left:30px;
+    background-color:black;
+    max-width:1000px;
+    padding-left:70px;
+}
+
+#backtime {
+    position:relative;
+    right:65px;
+    bottom:20px;
+    background-color:black;
+    width: 435px;
+    height: 50px;
+}
+
+#screen {
+    position:relative;
+    top:10px;
+    left:25px;
+    width: 400px;
+    height:30px;
+    background-image:url("../Images/pattern3.png");
+}
+
+#currentTime {
+    color:orangered;
+    font-family: 'Train';
+    font-size:30px;
+    padding-top:5px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.text-line {
+    color:orangered;
+    font-family: 'Train';
+    background-image:url("../Images/pattern3.png");
+    text-align: center;
+    height: 32px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    font-size:30px;
+    padding-bottom: 10px;
+}
